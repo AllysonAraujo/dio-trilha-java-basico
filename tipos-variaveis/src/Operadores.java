@@ -1,9 +1,17 @@
 public class Operadores {
     public static void main(String[] args) {
-        int numero = 5;
-        //X repetição
-        numero++;
+        boolean condicao1=true;
 
-        System.out.println(numero);
+        boolean condicao2=true;
+
+        if(condicao1 && condicao2){
+            System.out.println("as duas condições são verdadeiras");
+        }
+
+        if(condicao1 || condicao2){
+            System.out.println("uma das condições é verdadeira");
+        }
+
+        System.out.println("fim");
     }
 }
